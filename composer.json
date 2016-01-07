@@ -23,9 +23,15 @@
 			"PatternLab\\PatternEngine\\Twig": "src/"
 		}
 	},
+	"repositories": [
+		{
+			"type": "vcs",
+			"url": "https://github.com/aleksip/patternlab-php-core"
+		}
+	],
 	"require": {
 		"php":              ">=5.3.6",
-		"pattern-lab/core": "0.*",
+		"pattern-lab/core": "dev-shila-drupal-theme",
 		"twig/twig":        "1.*"
 	},
 	"extra": {
